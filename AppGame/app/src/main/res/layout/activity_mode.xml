@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/bg1"
+    android:orientation="vertical"
+    tools:context=".mode">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="5dp"
+        android:background="@android:color/white"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:gravity="center"
+                android:text="Tokyo Ghoul"
+                android:textColor="#363A43"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-smallcaps"
+                android:gravity="center"
+                android:text="two mode"
+                android:textColor="#7A8089"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/btn_cm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:background="@color/purple_500"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="Character mode"
+                android:textColor="@color/white"
+                android:textSize="18sp">
+
+
+            </Button>
+            <Button
+                android:id="@+id/btn_lm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:background="@color/purple_500"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="Location mode"
+                android:textColor="@color/white"
+                android:textSize="18sp">
+
+
+            </Button>
+            <Button
+                android:id="@+id/btn_gb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:background="@color/purple_500"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="Go back"
+                android:textColor="@color/white"
+                android:textSize="18sp">
+
+
+            </Button>
+
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

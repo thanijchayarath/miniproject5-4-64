@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/g2"
+    tools:context=".fruit2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="10dp">
+        <Chronometer
+            android:id="@+id/view_ti"
+            android:layout_width="89dp"
+            android:layout_height="40dp"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:background="#C4FFF06F"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:targetApi="24"/>
+        <TextView
+            android:id="@+id/tv_quest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/bg"
+            android:backgroundTint="#FFFFFF"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:gravity="center"
+            android:text="Where is here?"
+            android:padding="7dp"
+            android:textColor="#0027FF"
+            android:textSize="22sp" />
+        <ImageView
+            android:id="@+id/tv_im"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/n41"/>
+        <LinearLayout
+            android:id="@+id/ll_progress_deta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            >
+
+            <ProgressBar
+                android:id="@+id/progress"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#FFFFFF"
+                android:indeterminate="false"
+                android:max="20"
+                android:minHeight="15dp"
+                android:progress="0" />
+            <TextView
+                android:id="@+id/tv_progr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="#7A8089"
+                android:textSize="14sp"
+                android:text="0/20"
+                />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_option_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/dg"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:gravity="center"
+            android:padding="15dp"
+            android:text="Apple"
+            android:textColor="#7A8089"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_option_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/dg"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:gravity="center"
+            android:padding="15dp"
+            android:text="Apple"
+            android:textColor="#7A8089"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_option_th"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/dg"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:gravity="center"
+            android:padding="15dp"
+            android:text="Apple"
+            android:textColor="#7A8089"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_option_f"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/dg"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:gravity="center"
+            android:padding="15dp"
+            android:text="Apple"
+            android:textColor="#7A8089"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btn_sub"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@color/purple_500"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="SUBMIT and PASS"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+
+
+    </LinearLayout>
+
+</ScrollView>
